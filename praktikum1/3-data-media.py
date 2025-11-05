@@ -21,7 +21,7 @@ st.write("Displaying Multiple Image")
 animal_images = [
     'assets/Animal1.jpeg',
     'assets/Animal2.jpeg',
-    'assets/Animal3.jpeg',
+    'assets/Animal6.jpg',
     'assets/Animal4.jpeg',
    
 ]
@@ -52,7 +52,7 @@ def add_local_background_image(image):
 
 st.write("Background Image")
 # Calling Image in function
-add_local_background_image('assets/Animal1.jpeg')
+add_local_background_image('assets/Animal5.jpg')
 
 import streamlit as st
 from PIL import Image
