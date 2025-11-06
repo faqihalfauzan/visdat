@@ -55,8 +55,8 @@ st.title("Download Button")
 # Creating Download Button
 down_btn = st.download_button(
 label="Download Image",
-data=open("ijal.jpg", "rb"),
-file_name="azril.jpg",
+data=open("assets/Animal1.jpeg", "rb"),
+file_name="assets/Animal2.jpeg",
 mime="image/jpg"
 )
 
