@@ -97,7 +97,7 @@ def scatter_3_variable():
     st.subheader("Data penjualan dan Suhu")
     st.dataframe(df)
 
-    # scatter plot
+    # 3Dscatter plot
     fig, ax = plt.subplots()
     scatter = ax.scatter(df['Suhu'], Penjualan, c=df['kelembapan'], s=100, cmap='coolwarm', alpha=0.7)
 
